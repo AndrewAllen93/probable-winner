@@ -86,7 +86,16 @@ a:hover {
     border: 2px solid;
     padding: 10px;
     box-shadow: 6px 4px 8px 4px;
+    width: auto;
+    float: inline-end;
+    justify-content: center;
 }
+
+.contact {
+    margin-top: 1200px;
+    margin-left: 20px;
+}
+
 
 
 @media screen and (max-width: 600px) {
