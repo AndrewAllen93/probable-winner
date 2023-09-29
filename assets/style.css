@@ -145,10 +145,11 @@ button:hover{
 } */
 
 .horzyimg{
-    margin-top: -150px;
+    margin-top: -275px;
     height: 300px;
     width: 300px;
-    margin-left: -10px;
+    /* margin-left: 500px; */
+    float: right;
 }
 
 .projects{
@@ -156,6 +157,15 @@ button:hover{
 }
 
 .projectxt{
+    text-align: center;
+    font-size: 75px;
+}
+
+.contact{
+    margin-top: 175px;
+}
+
+.contactxt{
     text-align: center;
     font-size: 75px;
 }
