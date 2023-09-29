@@ -185,3 +185,16 @@ button:hover{
 .contactxt{
     text-decoration: none;
 }
+
+.button{
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.number{
+    color: black;
+    margin-left: 165px;
+    margin-bottom: 500px;
+}
