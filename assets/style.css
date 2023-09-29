@@ -123,7 +123,8 @@ button:hover{
     align-items: center; */
     display: inline-block;
     vertical-align: top; 
-    margin-right: 20px; 
+    margin-right: 20px;
+    margin-left: 5px; 
 }
 
 .dirty-text{
@@ -150,6 +151,7 @@ button:hover{
     width: 300px;
     /* margin-left: 500px; */
     float: right;
+    margin-right: 10px;
 }
 
 .projects{
