@@ -161,6 +161,7 @@ button:hover{
 .projectxt{
     text-align: center;
     font-size: 75px;
+    text-decoration: none;
 }
 
 .contact{
@@ -179,4 +180,8 @@ button:hover{
 
 .ud{
     margin-top: -385px;
+}
+
+.contactxt{
+    text-decoration: none;
 }
