@@ -1,202 +1,187 @@
-body{
-    margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 300;
-    background-color: whitesmoke;
+body {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 300;
+  background-color: whitesmoke;
 }
 
-.container{
-    width: 80%;
-    margin: 0 auto;
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
-.logo{
-    width: 200px;
-    height: 200px;
-}
-
-nav{
-    float: right;
+.logo {
+  width: 200px;
+  height: 200px;
 }
 
-nav ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+nav {
+  float: right;
 }
 
-nav li{
-    display: inline-block;
-    margin-top: 70px;
-    padding: 20px;
-    text-decoration: none;
-    font-size: larger;
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-nav a{
-text-decoration: none;
-color: #e87121;
-text-transform: uppercase;
+nav li {
+  display: inline-block;
+  margin-top: 70px;
+  padding: 20px;
+  text-decoration: none;
+  font-size: larger;
 }
 
-nav a:hover{
-    color: black;
+nav a {
+  text-decoration: none;
+  color: #e87121;
+  text-transform: uppercase;
 }
 
-.about{
-    width: 100%;
-    padding: 50px 0px;
-    margin-left: 50px;
+nav a:hover {
+  color: black;
 }
 
-.wife{
-   height: auto;
-   width: 420px; 
-   margin-left: 20px;
-   border-radius: 10px;
+.about {
+  width: 100%;
+  padding: 50px 0px;
+  margin-left: 50px;
 }
 
-.about-text{
-    width: 550px;
+.wife {
+  height: auto;
+  width: 420px;
+  margin-left: 20px;
+  border-radius: 10px;
 }
 
-.main{
-    width: 1130px;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.about-text {
+  width: 550px;
 }
 
-.about-text h1{
-    color: black;
-    font-size: 80px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.about-text h5{
-   color: black;
-   font-size: 25px;
-   text-transform: capitalize;
-   margin-bottom: 25px;
-   letter-spacing: 2px; 
+.about-text h1 {
+  color: black;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
 }
 
-span{
-    color: #e87121;
+.about-text h5 {
+  color: black;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
 }
 
-.about-text p{
-    color: black;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 18px;
-    margin-bottom: 45px;
+span {
+  color: #e87121;
 }
 
-button{
-    background: #e87121;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 30px;
-    transition: 4s;
-
+.about-text p {
+  color: black;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
 }
 
-button:hover{
-    background: transparent;
-    border: 2px solid #e87121;
-    cursor: pointer;
+button {
+  background: #e87121;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 4s;
 }
 
-.dirty{
-    height: 500px;
-    width: 500px;
-    /* margin-top: 80px;
-    margin-left: 40px;
-    border-radius: 500px;
-    display: flex;
-    align-items: center; */
-    display: inline-block;
-    vertical-align: top; 
-    margin-right: 20px;
-    margin-left: 250px; 
+button:hover {
+  background: transparent;
+  border: 2px solid #e87121;
+  cursor: pointer;
 }
 
-.dirty-text{
-    color: black;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 18px;
-    margin-bottom: 30px; 
-    text-align: center;
+.dirty-text {
+  color: black;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
-/* .horzy {
-    height: 300px;
-    width: 300px;
-    display: inline-block;
-    vertical-align: top; 
-    margin-right: 20px; 
-    margin-top: 10px;
-} */
-
-.horzyimg{
-    margin-top: -385px;
-    height: 300px;
-    width: 300px;
-    /* margin-left: 500px; */
-    float: right;
-    margin-right: -70px;
+.projects {
+  margin-top: 150px;
 }
 
-.projects{
-    margin-top: 150px;
+.projectxt {
+  text-align: center;
+  font-size: 75px;
+  text-decoration: none;
 }
 
-.projectxt{
-    text-align: center;
-    font-size: 75px;
-    text-decoration: none;
+.contact {
+  margin-top: 175px;
 }
 
-.contact{
-    margin-top: 175px;
+.contactxt {
+  text-align: center;
+  font-size: 75px;
 }
 
-.contactxt{
-    text-align: center;
-    font-size: 75px;
+.ud {
+  margin-top: -385px;
+  margin-left: 10px;
 }
 
-.coming{
-    height: 300px;
-    width: 300px;
+.contactxt {
+  text-decoration: none;
 }
 
-.ud{
-    margin-top: -385px;
-    margin-left: 10px;
+.button {
+  height: 200px;
+  width: 200px;
 }
 
-.contactxt{
-    text-decoration: none;
+.number {
+  color: black;
+  margin-left: 165px;
+  margin-bottom: 500px;
 }
 
-.button{
-    height: 200px;
-    width: 200px;
-    margin-left: 50px;
-    margin-top: 50px;
+.project-links-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.number{
-    color: black;
-    margin-left: 165px;
-    margin-bottom: 500px;
+.project-links-wrapper a {
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.project-links-wrapper a img {
+  max-width: 300px;
+  height: auto;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
